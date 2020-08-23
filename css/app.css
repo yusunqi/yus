@@ -1,0 +1,49 @@
+#index {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f7;
+}
+#index> h2 {
+    margin-top: -20px;
+}
+#index> .index-content {
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    border: 1px solid #616161;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#index> .index-content .round {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+    box-shadow: 0 0 10px #360940;
+    font-size: 20px;
+    color: #f5f5f7;
+    text-align: center;
+    line-height: 160px;
+    margin-bottom: 40px;
+    transition: all .5s;
+}
+#index> .index-content> .round:hover {
+    width: 180px;
+    height: 180px;
+}
+#index> .index-content> h2 {
+    line-height: 44px;
+}
+#index> .index-content> h4 {
+    color: #ccc;
+}
+#index> span {
+    font-size: 14px;
+    color: #ccc;
+}

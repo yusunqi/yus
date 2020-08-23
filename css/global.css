@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+}
+#pages {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+a:active {
+    background: transparent;
+}
+
+hr {
+    width: 80vw;
+    border-color: #616161;
+    margin-top: 20px;
+}
